@@ -99,8 +99,8 @@ This is where aspect ratio comes in. The aspect ratio of an image is the ratio o
 
 This means if we know one of the dimensions, the other can be determined. For a 16:9 aspect ratio:
 
-*   If puppy.jpg has a 360px height, width is 360 x (16 / 9) = 640px
-*   If puppy.jpg has a 640px width, height is 640 x (9 / 16) = 360px
+*   If puppy.jpg has a 360px height, width is (360 x 16) / 9 = 640px
+*   If puppy.jpg has a 640px width, height is (640 x 9) / 16 = 360px
 
 Knowing the aspect ratio allows the browser to calculate and reserve sufficient space for the height and associated area.
 
